@@ -1,0 +1,68 @@
+.btn-fix {
+padding: 0;
+border: none;
+white-space: normal;
+background-color: #100e17;
+text-align: left;
+border: none;
+outline: none;
+outline-color: #100e17;
+border-color: #100e17;
+-webkit-tap-highlight-color: transparent;
+}
+
+.modal-container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-dialog {
+  width: 70vmin;
+  height: 70vmin;
+  position: relative;
+  overflow: hidden;
+}
+
+.modal-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-polygon {
+  fill: #ab47bc;
+}
+
+.modal-content {
+  position: relative;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  color: transparent;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-content img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%
+}
